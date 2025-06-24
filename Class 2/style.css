@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+.demo{
+    border: 2px solid red;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+    overflow: auto;
+  
+}
+
+
+.demo1{
+    border: 2px rgba(red, green, blue, alpha);
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    padding: 30px;
+    overflow: scroll;
+  
+}
