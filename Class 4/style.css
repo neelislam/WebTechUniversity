@@ -1,0 +1,51 @@
+*{
+    background-color: black;
+}
+h1 {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    animation: dvdBounce 5s linear infinite;
+}
+
+h1:hover {
+    background-color: brown;
+    width: 120px;
+    height: 120px;
+}
+
+
+@keyframes dvdBounce {
+    0% {
+        top: 0;
+        left: 0;
+        background-color: blue;
+    }
+    25% {
+        top: 0;
+        left: calc(100vw - 100px);
+        background-color: red;
+    }
+    50% {
+        top: calc(100vh - 100px);
+        left: calc(100vw - 100px);
+        background-color: green;
+    }
+    75% {
+        top: calc(100vh - 100px);
+        left: 0;
+        background-color: yellow;
+    }
+    100% {
+        top: 0;
+        left: 0;
+        background-color: blue;
+    }
+}
